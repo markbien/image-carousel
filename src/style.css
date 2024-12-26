@@ -1,0 +1,73 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 400px;
+  width: 700px;
+  margin: 100px auto;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.arrows {
+  height: 45px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.left-arrow {
+  transform: translateY(-50%) rotate(180deg);
+  left: -30px;
+}
+
+.right-arrow {
+  right: -30px;
+  transform: translateY(-50%);
+}
+
+.frame {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: all .2s ease;
+  display: flex;
+  justify-content: center;
+}
+
+.card1 {
+  /* background-color: black; */
+}
+
+.card2 {
+  /* background-color:  red; */
+}
+
+.card3 {
+  /* background-color: orange; */
+}
+
+.card4 {
+  /* background-color: blue; */
+}
+
+.card5 {
+  /* background-color: green; */
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.active {
+  opacity: 1;
+}
