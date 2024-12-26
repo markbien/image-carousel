@@ -15,6 +15,7 @@
   position: absolute;
   top: 50%;
   z-index: 1;
+  cursor: pointer;
 }
 
 .left-arrow {
@@ -38,29 +39,9 @@
   width: 100%;
   position: absolute;
   opacity: 0;
-  transition: all .2s ease;
+  transition: all .1s ease;
   display: flex;
   justify-content: center;
-}
-
-.card1 {
-  /* background-color: black; */
-}
-
-.card2 {
-  /* background-color:  red; */
-}
-
-.card3 {
-  /* background-color: orange; */
-}
-
-.card4 {
-  /* background-color: blue; */
-}
-
-.card5 {
-  /* background-color: green; */
 }
 
 .card img {
