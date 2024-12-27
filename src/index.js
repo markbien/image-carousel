@@ -39,3 +39,7 @@ rightArrow.addEventListener("click", nextSlide);
 
 const leftArrow = document.querySelector(".left-arrow");
 leftArrow.addEventListener("click", prevSlide);
+
+document.addEventListener("DOMContentLoaded", function(){
+  setInterval(nextSlide, 5000);
+});
